@@ -17,3 +17,5 @@ arcpy.AddLocations_na(Closest_Facility__5_, "Incidents", "Your Exported Incident
 
 arcpy.Solve_na(Closest_Facility__2_, "SKIP", "TERMINATE", "", "")
 
+#To Run the Model
+execfile("Model File Path")
